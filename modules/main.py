@@ -37,10 +37,10 @@ async def show_random_emojis(message):
     return emoji_message
     
 credit ="🇳‌🇮‌🇰‌🇭‌🇮‌🇱‌" 
-OWNER = int(os.environ.get("OWNER", 5680454765))
+OWNER = int(os.environ.get("OWNER", 7385595817))
 try: 
     ADMINS=[] 
-    for x in (os.environ.get("ADMINS", "5680454765").split()):  
+    for x in (os.environ.get("ADMINS", "7385595817").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
         raise Exception("Your Admins list does not contain valid integers.") 
@@ -1095,7 +1095,7 @@ async def txt_handler(bot: Client, m: Message):
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
              id =  url.split("/")[-2]
              url = f"https://dl.alphacbse.site/download/{id}/master.m3u8"
-             #url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={PW}"
+             #url = f"- https://anonymouspwplayerr-c96de7802811.herokuapp.com/pw?url={url}&token={pw_token}"
 
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
             name = f'{name1[:60]}'
